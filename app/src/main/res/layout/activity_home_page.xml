@@ -58,7 +58,7 @@
         android:layout_width="328dp"
         android:layout_height="23dp"
         android:layout_marginStart="25dp"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="100dp"
         android:layout_marginEnd="26dp"
         android:fontFamily="@font/poppins_bold"
         android:text="Recomendado para ti"
@@ -69,5 +69,130 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:layout_width="291dp"
+        android:layout_height="253dp"
+        android:layout_marginTop="141dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton9"
+            android:layout_width="291dp"
+            android:layout_height="181dp"
+            android:background="#FFFFFF"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/bienvenidatele" />
+
+        <TextView
+            android:layout_marginTop="189dp"
+            android:id="@+id/textView3"
+            android:layout_width="262dp"
+            android:layout_height="21dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Fiesta Cachimbos - Lima"
+            android:textAlignment="viewStart"
+            android:textColor="@color/color_black_green"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="262dp"
+            android:layout_height="21dp"
+            android:layout_marginTop="234dp"
+            android:fontFamily="@font/poppins"
+            android:text="Miercoles 05 Abril.     9:00 pm"
+            android:textAlignment="viewStart"
+            android:textColor="@color/color_black_green"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="58dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="233dp"
+            android:layout_marginTop="234dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="S/23"
+            android:textAlignment="textEnd"
+            android:textColor="@color/color_black_green"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="328dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="422dp"
+        android:layout_marginEnd="26dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Tendencias"
+        android:textAlignment="viewStart"
+        android:textColor="@color/color_black_green"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:layout_width="291dp"
+        android:layout_height="253dp"
+        android:layout_marginTop="471dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton10"
+            android:layout_width="291dp"
+            android:layout_height="181dp"
+            android:background="#FFFFFF"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ferxxo" />
+
+        <TextView
+            android:layout_marginTop="189dp"
+            android:id="@+id/textView7"
+            android:layout_width="262dp"
+            android:layout_height="21dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="FERXXO - Lima"
+            android:textAlignment="viewStart"
+            android:textColor="@color/color_black_green"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="262dp"
+            android:layout_height="21dp"
+            android:layout_marginTop="234dp"
+            android:fontFamily="@font/poppins"
+            android:text="Martes 30 Mar.     9:00 pm"
+            android:textAlignment="viewStart"
+            android:textColor="@color/color_black_green"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="58dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="233dp"
+            android:layout_marginTop="234dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="S/494"
+            android:textAlignment="textEnd"
+            android:textColor="@color/color_black_green"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
