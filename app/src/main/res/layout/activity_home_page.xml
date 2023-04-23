@@ -11,7 +11,7 @@
         android:layout_width="318dp"
         android:layout_height="35dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="29dp"
+        android:layout_marginTop="11dp"
         android:layout_marginEnd="26dp"
         android:fontFamily="@font/poppins_bold"
         android:lineSpacingExtra="9.8sp"
@@ -29,7 +29,7 @@
         android:layout_width="31dp"
         android:layout_height="28dp"
         android:layout_marginStart="300dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="14dp"
         android:layout_marginEnd="16dp"
         android:adjustViewBounds="true"
         android:background="#FFFFFF"
@@ -44,7 +44,7 @@
         android:id="@+id/imageButton8"
         android:layout_width="36dp"
         android:layout_height="27dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="14dp"
         android:layout_marginEnd="330dp"
         android:background="#FFFFFF"
         android:scaleType="fitXY"
@@ -58,7 +58,7 @@
         android:layout_width="328dp"
         android:layout_height="23dp"
         android:layout_marginStart="25dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="82dp"
         android:layout_marginEnd="26dp"
         android:fontFamily="@font/poppins_bold"
         android:text="Recomendado para ti"
@@ -71,9 +71,10 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <RelativeLayout
+        android:id="@+id/relativeLayout"
         android:layout_width="291dp"
         android:layout_height="253dp"
-        android:layout_marginTop="141dp"
+        android:layout_marginTop="123dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -87,10 +88,10 @@
             app:srcCompat="@drawable/bienvenidatele" />
 
         <TextView
-            android:layout_marginTop="189dp"
             android:id="@+id/textView3"
             android:layout_width="262dp"
             android:layout_height="21dp"
+            android:layout_marginTop="189dp"
             android:fontFamily="@font/poppins_bold"
             android:text="Fiesta Cachimbos - Lima"
             android:textAlignment="viewStart"
@@ -129,7 +130,7 @@
         android:layout_width="328dp"
         android:layout_height="23dp"
         android:layout_marginStart="25dp"
-        android:layout_marginTop="422dp"
+        android:layout_marginTop="404dp"
         android:layout_marginEnd="26dp"
         android:fontFamily="@font/poppins_bold"
         android:text="Tendencias"
@@ -144,7 +145,7 @@
     <RelativeLayout
         android:layout_width="291dp"
         android:layout_height="253dp"
-        android:layout_marginTop="471dp"
+        android:layout_marginTop="453dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -194,5 +195,7 @@
             android:textSize="12sp"
             android:textStyle="bold" />
     </RelativeLayout>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
