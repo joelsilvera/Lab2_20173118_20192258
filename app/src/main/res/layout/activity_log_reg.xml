@@ -6,4 +6,49 @@
     android:layout_height="match_parent"
     tools:context=".LogReg">
 
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/poppins_bold"
+        android:lineSpacingExtra="9.8sp"
+        android:text=" Inicio Sesión"
+        android:textAlignment="center"
+        android:textColor="@color/color_black_green"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:layout_width="328dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="200dp"
+        android:background="#F2F3F2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="18.4dp"
+            android:fontFamily="@font/poppins"
+            android:letterSpacing="0.01"
+            android:lineSpacingExtra="8sp"
+            android:textColor="#99273431"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            tools:text="Correo" />
+    </RelativeLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
