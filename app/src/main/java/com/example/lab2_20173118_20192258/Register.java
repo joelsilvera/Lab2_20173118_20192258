@@ -27,7 +27,7 @@ public class Register extends AppCompatActivity {
         EditText id2 = findViewById(R.id.id2);
         EditText id3 = findViewById(R.id.id3);
         EditText id4 = findViewById(R.id.id4);
-        Button myButton = findViewById(R.id.button2);
+        Button myButton = findViewById(R.id.button);
 
 
         myButton.setEnabled(false);
@@ -130,7 +130,17 @@ public class Register extends AppCompatActivity {
             }
         });
 
-        myButton.setOnClickListener(new View.OnClickListener() {
+        //Para cuando fusionemos las ramas:
+        //myButton.setOnClickListener(new View.OnClickListener() {
+        //    @Override
+        //    public void onClick(View view) {
+        //        Intent intent = new Intent(Register.this,HomePage.class);
+        //        startActivity(intent);
+        //    }
+        //});
+
+        Button myButton2 = findViewById(R.id.button2);
+        myButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Register.this,LogReg.class);
