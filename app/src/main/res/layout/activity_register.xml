@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/poppins_bold"
+        android:lineSpacingExtra="9.8sp"
+        android:text="Registro"
+        android:textAlignment="center"
+        android:textColor="@color/color_black_green"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="328dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="300dp"
+        android:background="#F2F3F2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins"
+            android:inputType="textPersonName"
+            android:letterSpacing="0.01"
+            android:lineSpacingExtra="8sp"
+            android:text="Nombre"
+            android:textColor="#99273431"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="328dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="179dp"
+        android:background="#F2F3F2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins"
+            android:inputType="textPersonName"
+            android:letterSpacing="0.01"
+            android:lineSpacingExtra="8sp"
+            android:text="Número"
+            android:textColor="#99273431"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout4"
+        android:layout_width="328dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="100dp"
+        android:background="#F2F3F2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins"
+            android:inputType="textPersonName"
+            android:letterSpacing="0.01"
+            android:lineSpacingExtra="8sp"
+            android:text="Correo"
+            android:textColor="#99273431"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout5"
+        android:layout_width="328dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="16dp"
+        android:background="#F2F3F2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins"
+            android:inputType="textPersonName"
+            android:letterSpacing="0.01"
+            android:lineSpacingExtra="8sp"
+            android:text="Contraseña"
+            android:textColor="#99273431"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="328dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/btn1"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Registrate aquí"
+        android:textAllCaps="false"
+        android:textColor="#fcfcfc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.494" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="328dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/btn2"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Iniciar sesión"
+        android:textAllCaps="false"
+        android:textColor="#fcfcfc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.494" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="281dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/poppins"
+        android:letterSpacing="0.05"
+        android:lineSpacingExtra="5sp"
+        android:text="He leído y acepto los Términos y condiciones"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="281dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="315dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/poppins"
+        android:letterSpacing="0.05"
+        android:lineSpacingExtra="5sp"
+        android:text="¿Usted ha leído y acepta los términos y condiciones para el tratamiento de sus datos personales contenidos en la Política de Privacidad Web?"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="180dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="255dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

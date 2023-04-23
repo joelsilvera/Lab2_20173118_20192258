@@ -26,6 +26,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <RelativeLayout
+        android:id="@+id/relativeLayout2"
         android:layout_width="328dp"
         android:layout_height="56dp"
         android:layout_marginStart="16dp"
@@ -37,18 +38,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
+        <EditText
             android:layout_width="220dp"
-            android:layout_height="24dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="56dp"
-            android:layout_marginTop="18.4dp"
+            android:layout_marginTop="5dp"
             android:fontFamily="@font/poppins"
             android:letterSpacing="0.01"
             android:lineSpacingExtra="8sp"
             android:textColor="#99273431"
             android:textSize="16sp"
             android:textStyle="normal"
-            tools:text="Correo" />
+            android:inputType="textPersonName"
+            android:text="Correo" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -64,18 +66,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
+        <EditText
             android:layout_width="220dp"
-            android:layout_height="24dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="56dp"
-            android:layout_marginTop="18.4dp"
+            android:layout_marginTop="5dp"
             android:fontFamily="@font/poppins"
             android:letterSpacing="0.01"
             android:lineSpacingExtra="8sp"
             android:textColor="#99273431"
             android:textSize="16sp"
             android:textStyle="normal"
-            tools:text="Contraseña" />
+            android:inputType="textPersonName"
+            android:text="Contraseña" />
     </RelativeLayout>
 
     <Button
@@ -113,6 +116,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.494" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
