@@ -46,11 +46,11 @@
             android:fontFamily="@font/poppins"
             android:letterSpacing="0.01"
             android:lineSpacingExtra="8sp"
-            android:textColor="#99273431"
+            android:textColorHint="#99273431"
             android:textSize="16sp"
             android:textStyle="normal"
             android:inputType="textPersonName"
-            android:text="Correo" />
+            android:hint="Correo" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -74,11 +74,11 @@
             android:fontFamily="@font/poppins"
             android:letterSpacing="0.01"
             android:lineSpacingExtra="8sp"
-            android:textColor="#99273431"
+            android:textColorHint="#99273431"
             android:textSize="16sp"
             android:textStyle="normal"
-            android:inputType="textPersonName"
-            android:text="Contraseña" />
+            android:inputType="textPassword"
+            android:hint="Contraseña" />
     </RelativeLayout>
 
     <Button

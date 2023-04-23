@@ -47,8 +47,8 @@
             android:inputType="textPersonName"
             android:letterSpacing="0.01"
             android:lineSpacingExtra="8sp"
-            android:text="Nombre"
-            android:textColor="#99273431"
+            android:hint="Nombre"
+            android:textColorHint="#99273431"
             android:textSize="16sp"
             android:textStyle="normal" />
     </RelativeLayout>
@@ -73,11 +73,11 @@
             android:layout_marginStart="56dp"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/poppins"
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:letterSpacing="0.01"
             android:lineSpacingExtra="8sp"
-            android:text="Número"
-            android:textColor="#99273431"
+            android:hint="Número"
+            android:textColorHint="#99273431"
             android:textSize="16sp"
             android:textStyle="normal" />
     </RelativeLayout>
@@ -106,8 +106,8 @@
             android:inputType="textPersonName"
             android:letterSpacing="0.01"
             android:lineSpacingExtra="8sp"
-            android:text="Correo"
-            android:textColor="#99273431"
+            android:hint="Correo"
+            android:textColorHint="#99273431"
             android:textSize="16sp"
             android:textStyle="normal" />
     </RelativeLayout>
@@ -132,11 +132,11 @@
             android:layout_marginStart="56dp"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/poppins"
-            android:inputType="textPersonName"
+            android:inputType="textPassword"
             android:letterSpacing="0.01"
             android:lineSpacingExtra="8sp"
-            android:text="Contraseña"
-            android:textColor="#99273431"
+            android:hint="Contraseña"
+            android:textColorHint="#99273431"
             android:textSize="16sp"
             android:textStyle="normal" />
     </RelativeLayout>
@@ -204,7 +204,7 @@
         android:fontFamily="@font/poppins"
         android:letterSpacing="0.05"
         android:lineSpacingExtra="5sp"
-        android:text="¿Usted ha leído y acepta los términos y condiciones para el tratamiento de sus datos personales contenidos en la Política de Privacidad Web?"
+        android:text="¿Usted ha leído y acepta los términos y cond"
         android:textColor="#000000"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
