@@ -12,7 +12,7 @@
         android:layout_width="328dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="29dp"
+        android:layout_marginTop="5dp"
         android:layout_marginEnd="16dp"
         android:fontFamily="@font/poppins_bold"
         android:lineSpacingExtra="9.8sp"
@@ -30,10 +30,9 @@
         android:layout_width="328dp"
         android:layout_height="56dp"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="135dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="200dp"
         android:background="#F2F3F2"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -44,13 +43,13 @@
             android:layout_marginStart="56dp"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/poppins"
+            android:hint="Correo"
+            android:inputType="textPersonName"
             android:letterSpacing="0.01"
             android:lineSpacingExtra="8sp"
             android:textColorHint="#99273431"
             android:textSize="16sp"
-            android:textStyle="normal"
-            android:inputType="textPersonName"
-            android:hint="Correo" />
+            android:textStyle="normal" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -58,10 +57,9 @@
         android:layout_width="328dp"
         android:layout_height="56dp"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="199dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="79dp"
         android:background="#F2F3F2"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -72,49 +70,45 @@
             android:layout_marginStart="56dp"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/poppins"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
             android:letterSpacing="0.01"
             android:lineSpacingExtra="8sp"
             android:textColorHint="#99273431"
             android:textSize="16sp"
-            android:textStyle="normal"
-            android:inputType="textPassword"
-            android:hint="Contraseña" />
+            android:textStyle="normal" />
     </RelativeLayout>
 
     <Button
         android:id="@+id/button"
         android:layout_width="328dp"
         android:layout_height="50dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="307dp"
         android:background="@drawable/btn1"
         android:fontFamily="@font/poppins_bold"
         android:text="Iniciar sesión"
         android:textAllCaps="false"
         android:textColor="#fcfcfc"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.494" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button2"
-        android:paddingLeft="41dp"
-        android:paddingRight="41dp"
         android:layout_width="328dp"
         android:layout_height="50dp"
-        android:layout_marginTop="280dp"
+        android:layout_marginTop="375dp"
         android:background="@drawable/btn2"
         android:fontFamily="@font/poppins_bold"
+        android:paddingLeft="41dp"
+        android:paddingRight="41dp"
         android:text="¿No tienes cuenta? Registrate aquí"
         android:textAllCaps="false"
         android:textColor="#fcfcfc"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.494" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

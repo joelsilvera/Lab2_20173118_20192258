@@ -169,7 +169,7 @@ public class Register extends AppCompatActivity {
         TextView myTextView2 = findViewById(R.id.textView3);
         String text2 = "¿Usted ha leído y acepta los términos y condiciones para el tratamiento de sus datos personales contenidos en la ";
         String boldText2 = "Política de Privacidad Web";
-        String normalText2 = " ?";
+        String normalText2 = "?";
 
         // Create a SpannableString and set the bold style to the "bold" part of the string
         SpannableString spannableString2 = new SpannableString(text2 + boldText2 + normalText2);
