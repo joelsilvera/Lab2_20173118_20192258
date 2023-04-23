@@ -75,17 +75,36 @@
             android:textColor="#99273431"
             android:textSize="16sp"
             android:textStyle="normal"
-            tools:text="Correo" />
+            tools:text="Contraseña" />
     </RelativeLayout>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button"
         android:layout_width="328dp"
         android:layout_height="50dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="150dp"
         android:background="@drawable/btn1"
         android:fontFamily="@font/poppins_bold"
         android:text="Iniciar sesión"
+        android:textAllCaps="false"
+        android:textColor="#fcfcfc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.494" />
+
+    <Button
+        android:id="@+id/button2"
+        android:paddingLeft="41dp"
+        android:paddingRight="41dp"
+        android:layout_width="328dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/btn2"
+        android:fontFamily="@font/poppins_bold"
+        android:text="¿No tienes cuenta? Registrate aquí"
         android:textAllCaps="false"
         android:textColor="#fcfcfc"
         app:layout_constraintBottom_toBottomOf="parent"
