@@ -249,7 +249,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
     <CheckBox
-        android:id="@+id/checkBox8"
+        android:id="@+id/checkBox26"
         android:layout_width="18dp"
         android:layout_height="18dp"
         android:layout_marginStart="200dp"
@@ -258,7 +258,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
     <CheckBox
-        android:id="@+id/checkBox9"
+        android:id="@+id/checkBox23"
         android:layout_width="18dp"
         android:layout_height="18dp"
         android:layout_marginStart="200dp"
@@ -336,7 +336,7 @@
         android:textSize="12sp"
         app:layout_constraintStart_toStartOf="@+id/textView17"
         app:layout_constraintTop_toBottomOf="@+id/textView18"
-        tools:text="S/ 30.00" />
+        tools:text="S/ 26.00" />
 
     <TextView
         android:id="@+id/textView22"
@@ -351,15 +351,26 @@
         android:textSize="12sp"
         app:layout_constraintStart_toStartOf="@+id/textView20"
         app:layout_constraintTop_toBottomOf="@+id/textView21"
-        tools:text="S/ 30.00" />
+        tools:text="S/ 23.00" />
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/checkBox30"
         android:layout_width="18dp"
         android:layout_height="18dp"
         android:layout_marginStart="200dp"
         android:layout_marginTop="6dp"
         app:layout_constraintStart_toEndOf="@+id/textView7"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/color_primari"
+        android:text="Button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="514dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
