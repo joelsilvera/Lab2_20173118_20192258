@@ -136,13 +136,13 @@ public class Register extends AppCompatActivity {
         });
 
         //Para cuando fusionemos las ramas:
-        //myButton.setOnClickListener(new View.OnClickListener() {
-        //    @Override
-        //    public void onClick(View view) {
-        //        Intent intent = new Intent(Register.this,HomePage.class);
-        //        startActivity(intent);
-        //    }
-        //});
+        myButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Register.this,HomePage.class);
+                startActivity(intent);
+            }
+        });
 
         Button myButton2 = findViewById(R.id.button2);
         myButton2.setOnClickListener(new View.OnClickListener() {

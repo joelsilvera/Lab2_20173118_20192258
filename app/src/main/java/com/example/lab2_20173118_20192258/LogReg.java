@@ -22,5 +22,14 @@ public class LogReg extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button button2 = findViewById(R.id.button);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LogReg.this,HomePage.class);
+                startActivity(intent);
+            }
+        });
     }
 }
