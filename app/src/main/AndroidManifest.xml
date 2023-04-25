@@ -21,6 +21,9 @@
             android:name=".ejercicio3"
             android:exported="false" />
         <activity
+            android:name=".ejercicio4"
+            android:exported="false" />
+        <activity
             android:name=".Register"
             android:exported="false" />
         <activity
