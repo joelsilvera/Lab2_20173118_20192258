@@ -5,9 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.CheckBox;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 
@@ -29,6 +31,16 @@ public class ejercicio4 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 mostrarDialogoBasico();
+            }
+        });
+
+        ImageButton button3 = findViewById(R.id.imageButton);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ejercicio4.this,ejercicio3.class);
+                startActivity(intent);
+                finish();
             }
         });
     }
