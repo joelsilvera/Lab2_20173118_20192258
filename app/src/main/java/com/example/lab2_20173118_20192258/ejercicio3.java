@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 
 
@@ -31,6 +32,16 @@ public class ejercicio3 extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(ejercicio3.this,ejercicio4.class);
                 startActivity(intent);
+            }
+        });
+
+        ImageButton button3 = findViewById(R.id.imageButton3);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ejercicio3.this,HomePage.class);
+                startActivity(intent);
+                finish();
             }
         });
     }
